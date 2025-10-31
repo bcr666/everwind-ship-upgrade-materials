@@ -29,6 +29,9 @@ body{
 	color:var(--color-primary);
 	background:var(--color-background);
 	min-block-size:100dvh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 /* --- Headings --- */
@@ -73,10 +76,6 @@ main{
 	min-block-size:100%;
 }
 .container{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
     display:grid;
 	grid-template-columns:repeat(3, 18rem);
 	gap:.5rem;
@@ -188,3 +187,16 @@ main{
 /* Legend */
 .legend .row{justify-content:space-between;}
 
+@media print {
+	html, body {
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
+		padding: 0;
+	}
+	main {
+		margin: 0 auto;
+	}
+}
