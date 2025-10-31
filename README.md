@@ -19,8 +19,8 @@ Open `index.html` in any modern browser to view the page locally. The layout is 
 ## Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-org-or-user>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/bcr666/everwind-ship-upgrade-materials.git
+   cd everwind-ship-upgrade-materials
    ```
 
 2. Open locally:
